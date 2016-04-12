@@ -1,5 +1,6 @@
 {
   "name": "bt",
+  "pirvate": true,
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,5 +9,8 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
